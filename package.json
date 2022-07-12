@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@capacitor/android": "^3.6.0",
+    "@capacitor/cli": "^3.6.0",
+    "@capacitor/core": "^3.6.0",
+    "@capacitor/ios": "^3.6.0",
     "next": "12.2.2",
     "next-pwa": "^5.5.4",
     "react": "18.2.0",
