@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -13,8 +14,32 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@components": ["src/components/index.ts"],
+      "@modules": ["src/modules"],
+      "@helpers": ["src/common/helpers"],
+      "@hooks": ["src/common/hooks"],
+      "@types": ["src/common/types"],
+      "@models": ["src/common/models"],
+      "@store": ["src/redux/store.ts"],
+      "@redux/*": ["src/common/redux/*"],
+      "@pages/*": ["src/pages/*"],
+      "@icons/*": ["./public/icons/*"],
+      "@mocks/*": ["/__mocks__/*"],
+      "@actions": ["src/redux/actions"],
+      "@selectors": ["src/redux/selectors"],
+      "@actionTypes": ["src/redux/actionTypes"],
+      "@utils/*": ["src/common/utils/*"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "./src",
+    "src/**/*.module.scss",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
   "exclude": ["node_modules"]
 }

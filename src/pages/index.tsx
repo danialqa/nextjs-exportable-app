@@ -1,20 +1,26 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Link from 'next/link';
 
-import styles from '../../styles/Home.module.css';
+import { Helmet } from '@components';
 
-const Requests: NextPage = () => {
+import styles from './home.module.scss';
+
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Delivery App</title>
-        <meta name="description" content="Delivery PWA App" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Helmet title="Home" />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Requests list</h1>
+        <img
+          src="/images/home-image.svg"
+          width={408.5}
+          height={434.22}
+          alt=""
+        />
+
+        <h1 className={styles.title}>
+          Welcome to <span>Delivery App!</span>
+        </h1>
 
         <nav className={styles.nav}>
           <ul>
@@ -40,4 +46,4 @@ const Requests: NextPage = () => {
   );
 };
 
-export default Requests;
+export default Home;

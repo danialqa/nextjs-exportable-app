@@ -1,17 +1,14 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Link from 'next/link';
 
-import styles from '../../styles/Home.module.css';
+import { Helmet } from '@components';
+
+import styles from '../home.module.scss';
 
 const Requests: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Delivery App</title>
-        <meta name="description" content="Delivery PWA App" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Helmet title="Profile" />
 
       <main className={styles.main}>
         <h1 className={styles.title}>Profile</h1>

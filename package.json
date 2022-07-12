@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p $(grep NEXT_PUBLIC_PORT .env.development | cut -d '=' -f2)",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
