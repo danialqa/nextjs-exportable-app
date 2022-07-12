@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,13 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 30px;
+  font-family: 'SofiaPro-Light';
+}
+
+.title span {
+  color: #21c67b;
+  font-family: 'SofiaPro-Medium';
 }
 
 .title,
@@ -31,8 +37,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 
 .nav ul li a {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'SofiaPro-SemiBold';
 }

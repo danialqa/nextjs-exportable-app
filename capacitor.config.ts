@@ -2,9 +2,9 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.deliveryapp',
-  appName: 'deliveryApp',
+  appName: 'Delivery App',
   webDir: 'out',
-  bundledWebRuntime: false
+  bundledWebRuntime: false,
 };
 
 export default config;
