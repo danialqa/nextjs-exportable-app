@@ -28,7 +28,12 @@ class AppDocument extends Document {
           <meta name="msapplication-tap-highlight" content="no" />
 
           <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icons/icon.png"></link>
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/icons/icon.png"
+          ></link>
+
           <link
             rel="apple-touch-startup-image"
             href="/images/splash/apple_splash_2048.png"

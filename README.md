@@ -18,7 +18,7 @@ sudo gem install cocoapods
 
 > **NOTE:** If you get any error while installing CocoaPods, it will probably be because you don’t have brew installed on your computer.
 
-### 03 - Install CocoaPods
+### 03 - Create Android and iOS folders
 
 These commands will create an iOS and Android folder containing the built code of your web app:
 
