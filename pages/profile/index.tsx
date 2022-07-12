@@ -1,9 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+import styles from '../../styles/Home.module.css';
+
+const Requests: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,9 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="#">Delivery PWA App!</a>
-        </h1>
+        <h1 className={styles.title}>Profile</h1>
 
         <nav className={styles.nav}>
           <ul>
@@ -41,4 +40,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Requests;
