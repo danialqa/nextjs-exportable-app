@@ -1,6 +1,7 @@
 # Next.js PWA Delivery App! 🚀
 
 <img src="https://img.shields.io/github/languages/code-size/danialghahremani/nextjs-pwa-app" alt="" />
+<img src="https://img.shields.io/github/checks-status/danialghahremani/nextjs-pwa-app/master" alt="" />
 
 ### 01 - Build and get ready for export
 
