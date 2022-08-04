@@ -1,5 +1,7 @@
 # Next.js + PWA Exportable Application! 🚀
 
+A Next.js boilerplate for building Progressive Web App and exportable IOS/Android app.
+
 <img src="https://img.shields.io/github/languages/code-size/danialghahremani/nextjs-pwa-app" alt="" /> <img src="https://img.shields.io/github/checks-status/danialghahremani/nextjs-pwa-app/master" alt="" /> 
 
 ## Demo
