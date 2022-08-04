@@ -1,4 +1,4 @@
-# Next.js PWA Delivery App! 🚀
+# Next.js PWA App! 🚀
 
 <img src="https://img.shields.io/github/languages/code-size/danialghahremani/nextjs-pwa-app" alt="" /> <img src="https://img.shields.io/github/checks-status/danialghahremani/nextjs-pwa-app/master" alt="" />
 
