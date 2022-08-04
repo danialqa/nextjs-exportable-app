@@ -1,5 +1,7 @@
 # Next.js PWA Delivery App! 🚀
 
+https://img.shields.io/github/languages/code-size/danialghahremani/nextjs-pwa-app
+
 ### 01 - Build and get ready for export
 
 For export the project, we have to run the following command, and it will create the build in the “/out” folder:
