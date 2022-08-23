@@ -7,7 +7,7 @@ A Next.js boilerplate for creating Progressive Web Apps as well as iOS and Andro
 ## Demo
 https://nextjs-pwa-app-danialghahremani.vercel.app/
 
-### 01 - Build and get ready for export
+### 01 - Build and prepare for export
 
 To export the project, use the following command, which will place the build in the "/out" folder:
 
