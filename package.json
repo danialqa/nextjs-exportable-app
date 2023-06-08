@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@capacitor/android": "^3.6.0",
-    "@capacitor/cli": "^3.6.0",
-    "@capacitor/core": "^3.6.0",
-    "@capacitor/ios": "^3.6.0",
+    "@capacitor/android": "^5.0.4",
+    "@capacitor/cli": "^5.0.4",
+    "@capacitor/core": "^5.0.4",
+    "@capacitor/ios": "^5.0.4",
     "next": "12.2.2",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
     "next-pwa": "^5.5.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.53.0"
   },
   "devDependencies": {
